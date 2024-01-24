@@ -1,0 +1,110 @@
+/*img01*/
+div.wrapper{
+    width: 100%;
+}
+div.wrapper>div.img01{
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+    cursor: pointer;
+ 
+    text-align: center;
+    position: relative;
+}
+div.wrapper>div.img01>img{
+    width:100%;
+    height: inherit;
+}
+div.wrapper>div.img01>div.box01{
+    width: 600px;
+    height: 400px;
+
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-right:100px ;
+    padding-top: 100px;
+
+
+
+}
+div.wrapper>div.img01>div.box01>img{
+    width: 400px;
+  
+}
+div.wrapper>div.img01>div.box01>h3{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif ;
+    color: whitesmoke;
+    font-size: 16px;
+}
+div.wrapper>div.img01>div.box01>p{
+
+    padding-top: 5px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    margin-bottom: 30px;
+}
+div.wrapper>div.img01>div.box01>a{
+    border-radius: 30px;
+    background-color: #0a8a13;
+    padding: 20px 30px;
+    color: whitesmoke;
+
+}
+div.wrapper>div.img01>div.box01:hover>a{
+    background-color: #08740f;
+
+}
+/*img02*/
+div.wrapper>div.img02{
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+}
+div.wrapper>div.img02>div:nth-of-type(1){
+    width: 100%;
+    text-align: center;
+
+}
+div.wrapper>div.img02>div:nth-of-type(1)>h2{
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+div.wrapper>div.img02>div:nth-of-type(2){
+    width: 100%;
+    height: inherit;
+    margin-top: 10px;
+    text-align: center;
+    position: relative;
+}
+div.wrapper>div.img02>div:nth-of-type(2)>img{
+    width: 100%;
+}
+div.wrapper>div.img02>div:nth-of-type(2)>div.d1{
+    width: 35%;
+    height: 50%;
+    position: absolute;
+    top:100px ;
+    right: 40px;
+}
+div.wrapper>div.img02>div:nth-of-type(2)>div.d1>img{
+    width: 80%;
+}
+div.wrapper>div.img02>div:nth-of-type(2)>div.d1>p{
+    width: 100%;
+    color: whitesmoke;
+    padding-bottom: 20px;
+}
+div.wrapper>div.img02>div:nth-of-type(2)>div.d1>a{
+    color: whitesmoke;
+    font-size: 20px;
+
+}
+div.wrapper>div.img02>div:nth-of-type(2)>div.d1:hover>a{
+    text-decoration: underline;
+}

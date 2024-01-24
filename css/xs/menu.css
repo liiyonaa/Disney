@@ -1,0 +1,21 @@
+
+div.wrapper{
+    width: 100%;
+}
+div.wrapper>div.menu{
+    display: none;
+}
+div.wrapper>div.sm{
+    display: none;
+}
+div.wrapper>div.xs{
+    width: 100%;
+    height: 60px;
+}
+div.wrapper>div.xs>div.logo{
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    
+}
